@@ -10,7 +10,7 @@
     <title>Carta de </title>
 </head>
 <body>
-    <h1>¡Feliz San Valentín! ❤️</h1>
+    <h1>¿Quieres ser mi San Valentin? ❤️</h1>
     <div class="container">
         <div class="envelope-wrapper ">
             <div class="envelope">
@@ -37,6 +37,16 @@
         </div>
     </div>
     
+    <Button onclick="abrirImg()" style="width: 30px; height: 30px;"></Button>
+    
+    <img id="imagen" src="boletos.png" alt="" 
+    style="display: none; width: 90%; height: 250px;" >
+
+    <script>
+        function abrirImg(){
+            document.getElementById("imagen").style.display = 'block'
+        }
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
